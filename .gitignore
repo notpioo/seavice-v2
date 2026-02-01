@@ -1,0 +1,24 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Environment variables & secrets (JANGAN COMMIT!)
+.env
+.env.local
+.env.*.local
+
+# Firebase Service Account (RAHASIA!)
+seavice.json
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+
+# IDE
+.idea
+.vscode
+
+# Logs
+*.log
+npm-debug.log*
