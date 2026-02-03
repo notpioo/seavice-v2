@@ -1,24 +1,22 @@
 import { Navbar } from "@/components/Navbar";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { ServiceMenu } from "@/components/ServiceMenu";
-import { ProductGrid } from "@/components/ProductGrid";
 import { Button } from "@/components/ui/button";
-import { ChevronRight, Flame } from "lucide-react";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
       <Navbar />
-      
+
       {/* Hero Section */}
       <HeroCarousel />
-      
+
       {/* Quick Access Menu */}
       <ServiceMenu />
 
       {/* Main Content Area */}
       <main className="container mx-auto px-4 py-8 space-y-10 max-w-6xl">
-        
+
         {/* Promotional Banner (static) */}
         <div className="bg-gray-900 rounded-3xl p-6 sm:p-10 text-white flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl shadow-gray-200">
           <div className="space-y-2 text-center sm:text-left">
@@ -29,23 +27,6 @@ export default function Home() {
             Claim Offer
           </Button>
         </div>
-
-        {/* Trending Section */}
-        <section>
-          <div className="flex items-center justify-between mb-6">
-            <div className="flex items-center gap-2">
-              <div className="p-2 bg-orange-100 rounded-lg text-orange-600">
-                <Flame className="w-5 h-5 fill-orange-600" />
-              </div>
-              <h2 className="text-2xl font-display font-bold text-gray-900">Trending Now</h2>
-            </div>
-            <Button variant="ghost" className="text-sm text-gray-500 hover:text-primary gap-1">
-              View All <ChevronRight className="w-4 h-4" />
-            </Button>
-          </div>
-          
-          <ProductGrid />
-        </section>
 
         {/* Category Promo */}
         <section className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -59,9 +40,9 @@ export default function Home() {
               </span>
             </div>
             {/* Unsplash abstract tech image */}
-            <img 
-              src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=300&fit=crop&q=80" 
-              alt="Gaming background" 
+            <img
+              src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=300&fit=crop&q=80"
+              alt="Gaming background"
               className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:scale-110 transition-transform duration-500"
             />
           </div>
@@ -76,9 +57,9 @@ export default function Home() {
               </span>
             </div>
             {/* Unsplash abstract cinema image */}
-            <img 
-              src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&h=300&fit=crop&q=80" 
-              alt="Streaming background" 
+            <img
+              src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=400&h=300&fit=crop&q=80"
+              alt="Streaming background"
               className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:scale-110 transition-transform duration-500"
             />
           </div>
