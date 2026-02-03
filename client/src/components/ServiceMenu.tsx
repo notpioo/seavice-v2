@@ -1,4 +1,4 @@
-import { Smartphone, Wifi, Zap, LayoutGrid } from "lucide-react";
+import { Smartphone, Wifi, Zap, LayoutGrid, Gamepad2, Wallet, Heart, Tv } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
 
@@ -6,7 +6,11 @@ const services = [
   { icon: Smartphone, label: "Pulsa", color: "bg-blue-50 text-blue-600", href: "/ppob/pulsa" },
   { icon: Wifi, label: "Kuota", color: "bg-green-50 text-green-600", href: "/ppob/kuota" },
   { icon: Zap, label: "PLN", color: "bg-yellow-50 text-yellow-600", href: "/ppob/pln" },
-  { icon: LayoutGrid, label: "Lainnya", color: "bg-orange-50 text-orange-600", href: "#" },
+  { icon: Gamepad2, label: "Game", color: "bg-purple-50 text-purple-600", href: "#" },
+  { icon: Wallet, label: "E-Money", color: "bg-cyan-50 text-cyan-600", href: "#" },
+  { icon: Heart, label: "Sosmed", color: "bg-pink-50 text-pink-600", href: "#" },
+  { icon: Tv, label: "Streaming", color: "bg-rose-50 text-rose-600", href: "#" },
+  { icon: LayoutGrid, label: "Lainnya", color: "bg-gray-50 text-gray-600", href: "#" },
 ];
 
 export function ServiceMenu() {

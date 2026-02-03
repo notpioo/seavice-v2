@@ -38,6 +38,10 @@ export class FirestoreStorage implements IStorage {
         { name: "Pulsa", icon: "smartphone", slug: "pulsa" },
         { name: "Kuota", icon: "wifi", slug: "kuota" },
         { name: "PLN", icon: "zap", slug: "pln" },
+        { name: "Game", icon: "gamepad-2", slug: "game" },
+        { name: "E-Money", icon: "wallet", slug: "emoney" },
+        { name: "Sosmed", icon: "heart", slug: "sosmed" },
+        { name: "Streaming", icon: "tv", slug: "streaming" },
         { name: "Lainnya", icon: "grid", slug: "lainnya" },
       ];
 
